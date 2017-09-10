@@ -6,6 +6,10 @@ mod "puppetlabs/inifile",     '1.5.0'
 mod "puppetlabs/stdlib",      '4.11.0'
 mod "puppetlabs/concat",      '2.1.0'
 mod "puppetlabs/java",        '1.6.0'
+mod "puppet/selinux",         '0.8.0'
+mod "garethr/docker",         '5.3.0'
+mod "puppetlabs/apt",         '2.3.0'
+mod "stahnma/epel",           '1.2.2'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -26,9 +30,9 @@ mod 'ntp',
   :branch => 'master'
 
 mod 'role',
-  :git => 'https://github.com/rivethead42/puppet-role.git',
-  :branch => 'master'
+  :git => 'https://github.com/popul/puppet-role.git',
+  :branch => 'development'
 
 mod 'profile',
   :git => 'https://github.com/rivethead42/puppet-profile.git',
-  :branch => 'master'
+  :branch => 'development'
