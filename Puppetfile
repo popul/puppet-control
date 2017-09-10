@@ -19,16 +19,16 @@ mod "puppetlabs/java",        '1.6.0'
 
 mod 'ssh',
   :git => 'https://github.com/rivethead42/puppet-ssh.git',
-  :ref => 'master'
+  :branch => 'master'
 
 mod 'ntp',
   :git => 'https://github.com/rivethead42/puppet-ntp.git',
-  :ref => 'master'
+  :branch => 'master'
 
 mod 'role',
   :git => 'https//github.com/rivethead42/puppet-role.git',
-  :ref => 'master'
+  :branch => 'master'
 
 mod 'profile',
   :git => 'https://github.com/rivethead42/puppet-profile.git',
-  :ref => 'master'
+  :branch => 'master'
