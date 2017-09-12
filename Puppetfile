@@ -31,8 +31,12 @@ mod 'ntp',
 
 mod 'role',
   :git => 'https://github.com/popul/puppet-role.git',
-  :branch => 'development'
+  :branch => 'master'
 
 mod 'profile',
-  :git => 'https://github.com/rivethead42/puppet-profile.git',
-  :branch => 'development'
+  :git => 'https://github.com/popul/puppet-profile.git',
+  :branch => 'master'
+
+mod 'nginx',
+  :git => 'https://github.com/popul/puppet-nginx.git',
+  :branch => 'master'
